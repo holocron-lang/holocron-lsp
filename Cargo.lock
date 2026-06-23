@@ -232,9 +232,9 @@ dependencies = [
 
 [[package]]
 name = "holocron"
-version = "0.4.0"
+version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5942f38ecefec439abff81be4fae25674f7730efd1d784d927215eb5d27affeb"
+checksum = "a4bb9692324641e33f9ee207a6ddacade78173d8b1d88f3262e1320c36e82628"
 dependencies = [
  "ariadne",
  "indexmap",
