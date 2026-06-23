@@ -6,6 +6,7 @@ description = "LSP server for Holocron — live diagnostics for .holocron.yaml f
 license = "MPL-2.0"
 repository = "https://github.com/holocron-lang/holocron-lsp"
 homepage = "https://holocron-lang.github.io/holocron/"
+documentation = "https://docs.rs/holocron-lsp"
 keywords = ["lsp", "language-server", "holocron", "yaml", "schema"]
 categories = ["development-tools"]
 
