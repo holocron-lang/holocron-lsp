@@ -1,0 +1,19 @@
+[package]
+name = "holocron-lsp"
+version = "0.0.0"
+edition = "2021"
+description = "LSP server for Holocron — live diagnostics for .holocron.yaml files with rustc-style errors."
+license = "MPL-2.0"
+repository = "https://github.com/holocron-lang/holocron-lsp"
+homepage = "https://holocron-lang.github.io/holocron/"
+keywords = ["lsp", "language-server", "holocron", "yaml", "schema"]
+categories = ["development-tools"]
+
+[[bin]]
+name = "holocron-lsp"
+path = "src/main.rs"
+
+[dependencies]
+holocron = "0.4"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "io-std"] }
+tower-lsp = "0.20"

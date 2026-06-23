@@ -1,0 +1,18 @@
+# Cocogitto configuration — https://docs.cocogitto.io
+# Drives automated, conventional-commit-based releases (see .github/workflows/release.yml).
+
+tag_prefix = "v"
+branch_whitelist = ["main"]
+ignore_merge_commits = true
+
+pre_bump_hooks = [
+  "cargo set-version {{version}}",
+]
+
+[changelog]
+path = "CHANGELOG.md"
+template = "remote"
+remote = "github.com"
+repository = "holocron-lsp"
+owner = "holocron-lang"
+authors = []
