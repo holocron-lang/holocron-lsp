@@ -113,7 +113,10 @@ impl Backend {
     async fn publish(&self, uri: Url, source: &str) {
         let diagnostics = match compile(source) {
             Ok(_) => Vec::new(),
-            Err(error) => vec![diagnostic_for(&error, source)],
+            Err(errors) => errors
+                .iter()
+                .map(|error| diagnostic_for(error, source))
+                .collect(),
         };
         self.client
             .log_message(

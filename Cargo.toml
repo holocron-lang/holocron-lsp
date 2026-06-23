@@ -15,6 +15,6 @@ name = "holocron-lsp"
 path = "src/main.rs"
 
 [dependencies]
-holocron = "0.4"
+holocron = "0.5"
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "io-std"] }
 tower-lsp = "0.20"
