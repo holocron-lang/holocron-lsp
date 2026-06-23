@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.1.1](https://github.com/holocron-lang/holocron-lsp/compare/3aa70e42d507d82b49dce937b1cb743deafeea88..v0.1.1) - 2026-06-23
+#### Bug Fixes
+- add documentation field to crate metadata - ([3aa70e4](https://github.com/holocron-lang/holocron-lsp/commit/3aa70e42d507d82b49dce937b1cb743deafeea88)) - darthVader, Claude Opus 4.7 (1M context)
+
+- - -
+
 ## [v0.1.0](https://github.com/holocron-lang/holocron-lsp/compare/21f4d45c9f17d3174f8d45ffd0998924ff25a27f..v0.1.0) - 2026-06-23
 #### Features
 - initial holocron-lsp release - ([90a9393](https://github.com/holocron-lang/holocron-lsp/commit/90a9393d8755ef1eaa5e7e853b59353228cc8ed7)) - darthVader, Claude Opus 4.7 (1M context)
