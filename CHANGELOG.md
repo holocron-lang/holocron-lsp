@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.0](https://github.com/holocron-lang/holocron-lsp/compare/0cce9edcefbee223d1b295f8f92d16b04c74ef17..v0.2.0) - 2026-06-23
+#### Features
+- bump holocron to 0.5 and render every diagnostic - ([bb27a30](https://github.com/holocron-lang/holocron-lsp/commit/bb27a304edf3c224719449efcd27e0cfe427e603)) - darthVader, Claude Opus 4.7 (1M context)
+#### Miscellaneous Chores
+- (**deps**) Bump actions/upload-artifact from 4 to 7 - ([0cce9ed](https://github.com/holocron-lang/holocron-lsp/commit/0cce9edcefbee223d1b295f8f92d16b04c74ef17)) - dependabot[bot]
+
+- - -
+
 ## [v0.1.1](https://github.com/holocron-lang/holocron-lsp/compare/3aa70e42d507d82b49dce937b1cb743deafeea88..v0.1.1) - 2026-06-23
 #### Bug Fixes
 - add documentation field to crate metadata - ([3aa70e4](https://github.com/holocron-lang/holocron-lsp/commit/3aa70e42d507d82b49dce937b1cb743deafeea88)) - darthVader, Claude Opus 4.7 (1M context)
